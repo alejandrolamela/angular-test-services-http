@@ -1,0 +1,5 @@
+
+
+<button *ngIf="page < maxPage" (click)="changePage(page +1)">+</button>
+{{page}}
+<button *ngIf="page > 0" (click)="changePage(page - 1)">-</button>

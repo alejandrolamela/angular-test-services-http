@@ -1,4 +1,5 @@
 <div class="characters-block">
+    <app-paginator (change)="changePage($event)"></app-paginator>
     <div *ngFor="let digimon of listado">
         <p>{{digimon.name}}</p>
         <button routerLink="/characters/{{digimon.id}}">Ver mas</button>

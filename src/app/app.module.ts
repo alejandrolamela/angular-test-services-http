@@ -7,14 +7,16 @@ import {HttpClientModule} from '@angular/common/http';
 import { CharacterComponent } from './pages/character/character.component';
 import { CharacterDetailComponent } from './pages/character-detail/character-detail.component';
 import { HomeComponent } from './pages/home/home.component';
-import { NavigatorComponent } from './shared/components/navigator/navigator.component'
+import { NavigatorComponent } from './shared/components/navigator/navigator.component';
+import { PaginatorComponent } from './shared/components/paginator/paginator.component'
 @NgModule({
   declarations: [
     AppComponent,
     CharacterComponent,
     CharacterDetailComponent,
     HomeComponent,
-    NavigatorComponent
+    NavigatorComponent,
+    PaginatorComponent
   ],
   imports: [
     BrowserModule,
