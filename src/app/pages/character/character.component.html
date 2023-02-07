@@ -1,1 +1,7 @@
-<p>character works!</p>
+<div class="characters-block">
+    <div *ngFor="let digimon of listado">
+        <p>{{digimon.name}}</p>
+        <button routerLink="/characters/{{digimon.id}}">Ver mas</button>
+
+    </div>
+</div>
